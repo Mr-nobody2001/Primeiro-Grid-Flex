@@ -146,6 +146,10 @@ header {
     justify-content: space-around;
 }
 
+#idClose{
+    margin-top: 10px;
+}
+
 #idMenu nav a article {
     /* Texto */
     font-size: 20px;
