@@ -16,19 +16,27 @@ let varDiv = document.getElementsByClassName("div2")
 
 let varArt = document.getElementsByClassName("art1")
 
-varMenuI.addEventListener("touchstart", function () {
-    varMenuV.setAttribute("class", "mv")
-})
-
-varClose.addEventListener("touchstart", function () {
-    varMenuV.setAttribute("class", "mi")
-})
-
 function funScreenS() {
 
     screenS = innerWidth
 
     varHeader.style.paddingLeft = "30px"
+    
+    varMenuI.addEventListener("touchstart", function () {
+    varMenuV.setAttribute("class", "mv")
+    })
+
+    varClose.addEventListener("touchstart", function () {
+        varMenuV.setAttribute("class", "mi")
+    })
+
+    for (let i = 0; i < varBut.length; i++) {
+
+        varBut[i].addEventListener("touchstart", function () {
+            window.location.href = "https://github.com/Mr-nobody2001"
+        })
+
+    }
 
     varImages[0].src = "logo.svg"
 
@@ -52,6 +60,14 @@ function funScreenS() {
 
 
     if (screenS >= 500) {
+        
+        for (let i = 0; i < varBut.length; i++) {
+
+            varBut[i].addEventListener("click", function () {
+                window.location.href = "https://github.com/Mr-nobody2001"
+            })
+    
+        }
 
         varImages[0].src = "logo.svg"
 
