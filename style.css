@@ -260,6 +260,7 @@ header {
     color: hsl(0, 0%, 100%);
     font-family: "Josefin Sans";
     font-weight: bolder;
+    font-size: 16px;
     bottom: 20px;
     left: 20px;
 }
@@ -570,6 +571,13 @@ header {
     margin-bottom: 10px;
 }
 
+.div_4 article {
+
+        font-size: 8px;
+        left: 10px;
+
+    }
+
 button {
     /* Espaçamento */
     padding: 10px;
@@ -823,7 +831,7 @@ footer {
 
     .div_4 article {
 
-        font-size: 10px;
+        font-size: 15px;
 
     }
 
@@ -1251,7 +1259,8 @@ footer {
 
     .div_4 article {
 
-        font-size: 25px;
+        font-size: 20px;
+        left: 15px;
     }
 
     .div3 {
