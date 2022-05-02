@@ -45,7 +45,7 @@ header {
     position: relative;
 
     /* Background */
-    background-image: url(../assets/images/mobile/image-hero.jpg);
+    background-image: url(image-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -383,7 +383,7 @@ header {
     position: relative;
 
     /* Background */
-    background-image: url(../assets/images/desktop/image-hero.jpg);
+    background-image: url(image-hero-d.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
