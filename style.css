@@ -35,16 +35,6 @@ a {
     text-decoration: none;
 }
 
-button:hover {
-    cursor: pointer;
-
-    /* Texto */
-    color: hsl(0, 0%, 100%);
-
-    /* Background */
-    background-color: hsl(0, 0%, 0%);
-}
-
 /* Cabeçalho */
 
 header {
@@ -827,6 +817,7 @@ footer {
 
     .div_4 img:hover {
         filter: opacity(20%);
+        transition-duration: 0.4s;
         cursor: pointer;
     }
 
@@ -879,6 +870,17 @@ footer {
         background-color: hsl(0, 0%, 100%);
         border: 2px solid hsl(0, 0%, 0%);
         outline: none;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        transition-duration: 0.5s;
+
+        /* Texto */
+        color: hsl(0, 0%, 100%);
+
+        /* Background */
+        background-color: hsl(0, 0%, 0%);
     }
 
     .sec2>nav {
