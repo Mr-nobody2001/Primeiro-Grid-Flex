@@ -16,6 +16,8 @@ let varDiv = document.getElementsByClassName("div2")
 
 let varArt = document.getElementsByClassName("art1")
 
+let varBut = document.getElementsByTagName("button")
+
 function funScreenS() {
 
     screenS = innerWidth
