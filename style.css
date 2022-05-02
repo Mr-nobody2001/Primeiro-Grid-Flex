@@ -259,7 +259,7 @@ header {
     /* Texto */
     color: hsl(0, 0%, 100%);
     font-family: "Josefin Sans";
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 16px;
     bottom: 20px;
     left: 20px;
@@ -571,13 +571,6 @@ header {
     margin-bottom: 10px;
 }
 
-.div_4 article {
-
-        font-size: 8px;
-        left: 10px;
-
-    }
-
 button {
     /* Espaçamento */
     padding: 10px;
@@ -831,7 +824,8 @@ footer {
 
     .div_4 article {
 
-        font-size: 15px;
+        font-size: 8px;
+        left: 10px;
 
     }
 
@@ -941,7 +935,7 @@ footer {
         height: 30px;
     }
 
-    .div5 nav article {
+    .div5 nav h3 {
         /* Texto */
         font-size: 10px;
     }
@@ -1070,7 +1064,7 @@ footer {
 
     .div_4 article {
 
-        font-size: 20px;
+        font-size: 15px;
 
     }
 
